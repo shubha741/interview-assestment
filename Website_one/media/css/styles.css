@@ -1,0 +1,183 @@
+
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x:hidden;
+}
+.bannner-color{
+    background-color: rgb(31, 126, 209);
+    border-bottom: 3px solid #000;
+}
+.nav-item a {
+    color: #fff;
+}
+nav .navbar-brand {
+    color: #fff !important;
+}
+
+.mobile-toggle{
+    width: 50px;
+    height: 50px;
+}
+@media (min-width: 1280px){
+    .pl-25{
+        padding-left: 50%;
+   }
+}
+.imagebanner{
+    background-image: url("../images/2.png");
+    background-position:inherit;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: #000;
+}
+.bannerTitile{
+    position: relative;
+   /* left: 30%;
+    */
+    font-size:4vw;
+    top: 10%;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.bannerDesc{
+    position: relative;
+   /* left: 30%;
+    */
+    font-size:2vw;
+    text-align: center;
+    top: 20%;
+    font-weight: 700;
+    color: #fff;
+}
+.bannerButton {
+    top: 40%;
+    position: relative;
+    color: #000;
+    text-align: center;
+}
+.buttonBlue{
+    text-align: center;
+    background-color: #fff;
+    outline: 0px;
+    border: none;
+    padding: 10px;
+}
+:root {
+    --animate-duration: 2s;
+}
+.IntroTitile{
+    color: rgb(31, 126, 209);
+    font-size: 40px;
+    text-align: center !important;
+}
+.IntroDesc{
+    text-align: justify;
+    padding-top: 30px;
+}
+.challenges{
+    background-color: aliceblue;
+}
+.challenges  .challengesTitle{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(31, 126, 209);
+    font-size: 30px;
+}
+.challenges .card{
+    height: 200px;
+    border-radius: 10px;
+    border:1px solid #000;
+    background-color: rgb(31, 126, 209);
+    color: #fff;
+ 
+}
+.challenges .card-title{
+    font-weight: 500;
+    background: #fff;
+    padding: 5px;
+    color: #000;
+}
+.helpBanner{
+    background-image: url("../images/help/baneer.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-attachment:fixed;
+}
+.helpBannerTitle{
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
+}
+
+ .helpBanner .card{
+  max-height: 350px;
+  height: 350px;
+    border:none;
+    margin-bottom: 50px;
+}
+.card-body{
+    height: auto;
+}
+
+.helpBanner img{
+    height: 150px;
+}
+
+/* .helpBanner .card-tex{
+    color: #fff;
+} */
+
+.helpBannerDesc{
+    color: #fff;
+}
+
+
+.work{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(31, 126, 209);
+    font-size: 30px;
+}
+
+.WhyUs{
+    background-color: azure;
+  
+}
+
+.WhyUsTitle{
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.WhyUs  .card-title{
+    text-align: center;
+
+}
+
+.WhyUs  .card{
+    border: 2px solid rgb(31, 126, 209);
+    color: #000;
+
+    /* background-color: red; /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(to right, red , yellow); */ */
+
+}
+
+.WhyUs .card-title{
+    position: relative;
+    top:20%;
+ 
+}
